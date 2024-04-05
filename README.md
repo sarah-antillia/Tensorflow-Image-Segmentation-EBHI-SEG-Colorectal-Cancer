@@ -133,7 +133,8 @@ In this experiment,for simplicity, we deal with <b>Polyp</b> category only.<br>
 <b>Colorectal-Cancer Polyp Statistics</b><br>
 <img src ="./projects/TensorflowSlightlyFlexibleUNet/EBHI-SEG-Colorectal-Cancer/_Statistics.png" width="512" height="auto"><br>
 <br>
-As shown above, the number of images of train and valid dataset is not necessarily large. 
+As shown above, the number of images of train and valid dataset is not necessarily large. Probably, an online dataset augmentation
+strategy may be effective to improve segmentation accuracy.
 <br>
 
 <br>
@@ -252,7 +253,8 @@ Evaluation console output:<br>
 <img src="./projects/TensorflowSlightlyFlexibleUNet/EBHI-SEG-Colorectal-Cancer/asset/evaluate_console_output_at_epoch_42.png" width="720" height="auto">
 <br><br>
 <a href="./projects/TensorflowSlightlyFlexibleUNet/EBHI-SEG-Colorectal-Cancer/evaluation.csv">evaluation.csv</a><br>
-The loss score (bce_dice_loss) for this test dataset is relatively low as shown below.<br>
+The loss score (bce_dice_loss) for this test dataset is relatively low as shown below, and binary_accuracy is not so high.
+Of course, you may try an online dataset augmentation or other segmentation models.<br>
 <pre>
 loss,0.1152
 binary_accuracy,0.9442
