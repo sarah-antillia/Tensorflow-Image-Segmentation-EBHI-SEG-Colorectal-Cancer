@@ -11,9 +11,6 @@ Segmentation for test images of 2048x1536 size by <a href="./src/TensorflowUNet.
 <img src="./projects/TensorflowSlightlyFlexibleUNet/EBHI-SEG-Colorectal-Cancer/asset/segmentation_samples.png" width="720" height="auto">
 <br>
 <br>
-Please see also our first experiment <a href="https://github.com/atlan-antillia/Image-Segmentation-Colorectal-Cancer">Image-Segmentation-Colorectal-Cancer</a>.
-<br>
-<br>
 In this experiment, we have used the simple UNet Model 
 <a href="./src/TensorflowUNet.py">TensorflowSlightlyFlexibleUNet</a> for this Colorectal-Cancer Segmentation.<br>
 As shown in <a href="https://github.com/sarah-antillia/Tensorflow-Image-Segmentation-API">Tensorflow-Image-Segmentation-API</a>.
