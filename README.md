@@ -47,7 +47,7 @@ https://www.frontiersin.org/articles/10.3389/fmed.2023.1114673/full
 
 <h3>
 <a id="2">
-2 Colorectal-Cancer ImageMask Dataset
+2. EBHI-SEG-Colorectal-Cancer ImageMask Dataset
 </a>
 </h3>
  If you would like to train this Colorectal-Cancer Segmentation model by yourself,
@@ -145,7 +145,7 @@ As shown above, the number of images of train and valid dataset is not necessari
 <br>
 
 <h2>
-4 Train TensorflowUNet Model
+3. Train TensorflowUNet Model
 </h2>
  We have trained Colorectal-Cancer TensorflowUNet Model by using the following
 <a href="./projects/TensorflowSlightlyFlexibleUNet/EBHI-SEG-Colorectal-Cancer/train_eval_infer.config"> <b>train_eval_infer.config</b></a> file. <br>
@@ -238,7 +238,7 @@ The training process has just been stopped at epoch 42 by an early-stopping call
 <br>
 
 <h3>
-3.2 Evaluation
+4. Evaluation
 </h3>
 Please move to a <b>./projects/TensorflowSlightlyFlexibleUNet/EBHI-SEG-Colorectal-Cancer</b> folder,<br>
 and run the following bat file to evaluate TensorflowUNet model for Colorectal-Cancer.<br>
@@ -259,7 +259,7 @@ binary_accuracy,0.9442
 </pre>
 
 <h2>
-3.3 Inference
+5. Inference
 </h2>
 Please move to a <b>./projects/TensorflowSlightlyFlexibleUNet/EBHI-SEG-Colorectal-Cancer</b> folder<br>
 ,and run the following bat file to infer segmentation regions for images by the Trained-TensorflowUNet model for Colorectal-Cancer.<br>
