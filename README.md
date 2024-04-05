@@ -7,7 +7,7 @@ EBHI-SEG-Colorectal-Cancer-ImageMask-Dataset-V1.zip</a>.
 <br>
 
 <br>
-Segmentation for test images of 2048x1536 size by <a href="./src/TensorflowUNet.py">TensorflowSlightlyFlexibleUNet</a> Model<br>
+Segmentation for test images of 512x512 size by <a href="./src/TensorflowUNet.py">TensorflowSlightlyFlexibleUNet</a> Model<br>
 <img src="./projects/TensorflowSlightlyFlexibleUNet/EBHI-SEG-Colorectal-Cancer/asset/segmentation_samples.png" width="720" height="auto">
 <br>
 <br>
